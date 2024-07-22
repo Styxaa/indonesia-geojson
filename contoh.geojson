@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "provinsi": "Aceh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [ ... ]
+        ]
+      }
+    },
+    ...
+  ]
+}
