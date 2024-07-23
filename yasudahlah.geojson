@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "provinsi": "Aceh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [96.906738, 5.559676],  // Titik barat daya
+            [97.364258, 5.559676],  // Titik barat laut
+            [97.364258, 6.112861],  // Titik timur laut
+            [96.906738, 6.112861],  // Titik timur daya
+            [96.906738, 5.559676]   // Kembali ke titik barat daya (untuk menutup polygon)
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provinsi": "Bali"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.029322, -8.514858],  // Titik barat daya
+            [115.644531, -8.514858],  // Titik barat laut
+            [115.644531, -8.075639],  // Titik timur laut
+            [115.029322, -8.075639],  // Titik timur daya
+            [115.029322, -8.514858]   // Kembali ke titik barat daya (untuk menutup polygon)
+          ]
+        ]
+      }
+    }
+  ]
+}
